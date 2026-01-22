@@ -8,6 +8,9 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const pathname = usePathname();
 
+    // If the path starts with /studio, return nothing
+    if (pathname.startsWith('/studio')) return null;
+
     const navLinks = [
         { name: 'Home', href: '/' },
         { name: 'About', href: '/about' },

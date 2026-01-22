@@ -32,9 +32,9 @@ export default function Home() {
       </div>
 
       {/* Language Indicator Hint (Temporary) */}
-      <div className="absolute bottom-10 text-gray-400 text-sm italic">
+      {/* <div className="absolute bottom-10 text-gray-400 text-sm italic">
         Language: English / मराठी / हिंदी
-      </div>
+      </div> */}
     </main>
   );
 }
